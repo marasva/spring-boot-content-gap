@@ -7,7 +7,7 @@ import taller.systems.com.example.springbootcontentgap.domain.WikidataEntity;
 import java.util.List;
 
 public interface ContentGapController {
-    @GetMapping("/hello")
+    @GetMapping("/")
     String index();
 
 
