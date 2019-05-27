@@ -14,8 +14,13 @@ public interface ContentGapController {
     @GetMapping("/wikidataEntity")
     ResponseEntity<List<WikidataEntity>> getAllWikidataEntitys();
 
-    @PostMapping("/wikidataEntity")
+    /*
+    @RequestMapping(value = "/wikidataEntity", method = RequestMethod.POST, consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
     ResponseEntity<Void> createWikidataEntity(@RequestBody WikidataEntity wikidataEntity);
+*/
+
+    @PostMapping("/wikidataEntity")
+    ResponseEntity<Void> createWikidataEntity(@RequestParam(required = false) WikidataEntity wikidataEntity);
 
     @DeleteMapping("/wikidataEntity")
     ResponseEntity<Void> deleteWikidataEntity(@PathVariable String wikidataEntityId);

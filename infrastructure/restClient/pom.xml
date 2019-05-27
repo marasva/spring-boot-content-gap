@@ -19,6 +19,12 @@
         </dependency>
         <dependency>
             <groupId>taller.systems.com.example</groupId>
+            <artifactId>kafkaAdapter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>taller.systems.com.example</groupId>
             <artifactId>domain</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>

@@ -22,7 +22,7 @@ public class ContentGapControllerImpl implements ContentGapController {
 
     @Override
     public String index() {
-        return "Greetings from Content Gap Spring Boot!";
+        return "You can search for Content Gap in Spring Boot!";
     }
 
     @Override
@@ -33,6 +33,7 @@ public class ContentGapControllerImpl implements ContentGapController {
     @Override
     public ResponseEntity<Void> createWikidataEntity(WikidataEntity wikidataEntity) {
         contentGapService.createWikidataEntity(wikidataEntity);
+
         return new ResponseEntity<Void>(HttpStatus.OK);
     }
 
