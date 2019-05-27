@@ -45,9 +45,4 @@ public class KafkaConfig {
         return new KafkaTemplate<Integer, String>(producerFactory());
     }
 
-    @Bean
-    public Producer producer() {
-        return new Producer();
-    }
-
 }
