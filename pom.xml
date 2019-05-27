@@ -6,7 +6,8 @@
     <modules>
         <module>domain</module>
         <module>infrastructure</module>
-    </modules>
+		<module>application</module>
+	</modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -56,6 +57,8 @@
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka</artifactId>
 		</dependency>
+
 	</dependencies>
+
 
 </project>
