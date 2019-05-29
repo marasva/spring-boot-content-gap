@@ -12,7 +12,6 @@
     <modules>
         <module>restClient</module>
         <module>InMemoryAdapter</module>
-        <module>kafkaAdapter</module>
     </modules>
     <artifactId>infrastructure</artifactId>
 

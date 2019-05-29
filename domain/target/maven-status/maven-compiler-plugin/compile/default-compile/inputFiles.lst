@@ -1,0 +1,6 @@
+/home/marasva/Documents/ntnuskole_l/tallerdesistemas/spring-boot/spring-boot-content-gap/domain/src/main/java/taller/systems/com/example/springbootcontentgap/api/ContentGapServiceImpl.java
+/home/marasva/Documents/ntnuskole_l/tallerdesistemas/spring-boot/spring-boot-content-gap/domain/src/main/java/taller/systems/com/example/springbootcontentgap/domain/EntityContentGap.java
+/home/marasva/Documents/ntnuskole_l/tallerdesistemas/spring-boot/spring-boot-content-gap/domain/src/main/java/taller/systems/com/example/springbootcontentgap/api/ContentGapService.java
+/home/marasva/Documents/ntnuskole_l/tallerdesistemas/spring-boot/spring-boot-content-gap/domain/src/main/java/taller/systems/com/example/springbootcontentgap/domain/WikidataEntity.java
+/home/marasva/Documents/ntnuskole_l/tallerdesistemas/spring-boot/spring-boot-content-gap/domain/src/main/java/taller/systems/com/example/springbootcontentgap/domain/WikidataTriple.java
+/home/marasva/Documents/ntnuskole_l/tallerdesistemas/spring-boot/spring-boot-content-gap/domain/src/main/java/taller/systems/com/example/springbootcontentgap/spi/ContentGapRepository.java
