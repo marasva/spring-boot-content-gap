@@ -36,6 +36,12 @@
                         </goals>
                     </execution>
                 </executions>
+                <!--
+                <configuration>
+                    <outputDirectory> home/marasva/Documents/ntnuskole_l/tallerdesistemas/spring-boot/spring-boot-content-gap/target</outputDirectory>
+                    <finalName>restClient</finalName>
+                </configuration>
+                <-->
             </plugin>
         </plugins>
     </build>
